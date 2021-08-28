@@ -14,12 +14,12 @@ function preload(){
 function setup(){
   
   createCanvas(400,400);
-// Moving background
+// Mover el fondo
 garden=createSprite(200,200);
 garden.addImage(gardenImg);
 
 
-//creating boy running
+//crear sprite del conejo moviéndose
 rabbit = createSprite(160,340,20,20);
 rabbit.scale =0.09;
 rabbit.addImage(rabbitImg);
@@ -28,7 +28,7 @@ rabbit.addImage(rabbitImg);
 function draw() {
   background(0);
   
-  // boy moving on Xaxis with mouse'
+  // movar al conejo en el eje X con el mouse
   rabbit.x = World.mouseX;
   
   edges= createEdgeSprites();
