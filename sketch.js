@@ -28,7 +28,7 @@ rabbit.addImage(rabbitImg);
 function draw() {
   background(0);
   
-  // movar al conejo en el eje X con el mouse
+  // mover al conejo en el eje X con el mouse
   rabbit.x = World.mouseX;
   
   edges= createEdgeSprites();
